@@ -68,15 +68,6 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a 
-                  href="/terms" 
-                  className="text-gray-300 hover:text-white transition-colors flex items-center"
-                >
-                  <FileText className="w-4 h-4 mr-2" />
-                  服務條款
-                </a>
-              </li>
-              <li>
-                <a 
                   href="/privacypolicy" 
                   className="text-gray-300 hover:text-white transition-colors flex items-center"
                 >
@@ -90,7 +81,7 @@ export default function Footer() {
                   className="text-gray-300 hover:text-white transition-colors flex items-center"
                 >
                   <FileText className="w-4 h-4 mr-2" />
-                  一般條款
+                  一般條款與條件
                 </a>
               </li>
             </ul>
@@ -104,14 +95,11 @@ export default function Footer() {
               © 2024 CANET. 保留所有權利。
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="/terms" className="text-gray-400 hover:text-white text-sm transition-colors">
-                服務條款
-              </a>
               <a href="/privacypolicy" className="text-gray-400 hover:text-white text-sm transition-colors">
                 隱私政策
               </a>
               <a href="/terms" className="text-gray-400 hover:text-white text-sm transition-colors">
-                一般條款
+                一般條款與條件
               </a>
             </div>
           </div>

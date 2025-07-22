@@ -23,7 +23,7 @@ const steps = [
     icon: Wifi,
     title: '即時啟用 eSIM',
     description: '付款完成後立即在Line收到 eSIM 設定檔，按照指引輕鬆完成設定',
-    color: 'secondary'
+    color: 'primary'
   },
   {
     id: 4,

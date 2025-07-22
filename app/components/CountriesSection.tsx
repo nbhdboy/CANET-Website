@@ -44,7 +44,7 @@ export default function CountriesSection() {
                 <div className="text-4xl mb-3">{country.flag}</div>
                 <h4 className="text-lg font-semibold text-gray-900 mb-2">{country.name}</h4>
                 <p className="text-sm text-gray-600 mb-2">{country.coverage}</p>
-                <p className="text-primary-600 font-semibold">{country.price}</p>
+                <p className="text-gray-500 font-semibold">{country.price}</p>
               </div>
             ))}
           </div>
@@ -90,8 +90,8 @@ export default function CountriesSection() {
           </div>
           
           <div className="text-center">
-            <div className="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <MapPin className="w-8 h-8 text-secondary-600" />
+            <div className="w-16 h-16 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <MapPin className="w-8 h-8 text-accent-600" />
             </div>
             <h4 className="text-lg font-semibold text-gray-900 mb-2">即時啟用</h4>
             <p className="text-gray-600">

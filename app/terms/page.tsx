@@ -14,93 +14,109 @@ export default function TermsPage() {
             <ArrowLeft className="w-4 h-4 mr-2" />
             返回首頁
           </Link>
-          <h1 className="text-3xl font-bold text-gray-900">服務條款</h1>
-          <p className="text-gray-600 mt-2">最後更新：2024年1月1日</p>
+          <h1 className="text-3xl font-bold text-gray-900">一般條款與條件</h1>
+          <p className="text-gray-600 mt-2">森聯科技有限公司</p>
+          <p className="text-gray-600">最後更新時間：2025 年 1 月 31 日</p>
         </div>
 
         <div className="bg-white rounded-lg shadow-sm p-8 space-y-8">
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">1. 服務概述</h2>
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">1. 條款效力</h2>
             <p className="text-gray-700 leading-relaxed">
-              CANET 提供全球 eSIM 服務，讓用戶能夠在世界各地享受高速網路連接。我們的服務透過 LINE Mini App 平台提供，包括但不限於 eSIM 購買、啟用和管理。
+              本網站是由「森聯科技有限公司」營運。統一編號：60715791。在整個網站中，「我們」、「我方」、「本公司」均指「森聯科技有限公司」。
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              造訪我們的網站和/或購買我們的產品，即表示您參與我們的「服務」，並同意受下列條款及條件約束。
             </p>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">2. 用戶資格</h2>
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">2. 服務使用與帳戶註冊</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              使用我們的服務，您必須：
+              您需要建立帳戶才能使用我們的 eSIM 服務。建立帳戶時，請提供準確和最新的資訊，包括您的姓名、電子郵件和電話號碼。您有責任維護帳戶和密碼的機密性，您的帳戶下的所有活動都由您負責。
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              如果您代表公司使用服務，您保證您有合法權限使公司受這些條款約束，並且您同意這些條款對公司具有法律約束力。
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">3. 服務內容與使用限制</h2>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              CANET 提供允許用戶在相容裝置上購買和安裝 eSIM 以進行海外上網的服務。
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              使用本服務，您應保證您的裝置為 eSIM 相容且已解鎖。我們會提供相容裝置清單，請您在購買前確認。如您勾選「我確認我的裝置相容 eSIM」即代表您自行承擔後續風險與責任。
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">4. 費用與付款</h2>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              服務之費用會於網站或應用程式上清楚標示，所有付款將透過第三方金流服務（如信用卡、LINE Pay 等）進行處理。除非另有說明，所有價格均不含稅。
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              一旦完成購買並收到 eSIM 安裝說明，即視為交易完成，費用不退。
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">5. eSIM 交付與啟用</h2>
+            <p className="text-gray-700 leading-relaxed">
+              您購買成功後，eSIM 將會顯示於帳戶的「我的 eSIM」頁面，並提供啟用教學。請務必於指定期限內完成啟用，否則 eSIM 將會過期，且不得退費或再次啟用。
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">6. 退款與取消政策</h2>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              若因我們的系統錯誤導致您無法使用 eSIM，您可於購買日起 30 天內申請退款。若您已安裝 eSIM 或已使用部分流量，則無法退款。退款前，我們可能會請您提供裝置截圖、網路設定等技術資訊以進行判斷。
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              我們不接受以下情形之退款：
             </p>
             <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-              <li>年滿 18 歲或具有法定監護人同意</li>
-              <li>擁有支援 eSIM 功能的設備</li>
-              <li>提供真實、準確的個人資訊</li>
-              <li>遵守所有適用的法律法規</li>
+              <li>裝置不相容或未解鎖</li>
+              <li>使用者誤操作</li>
+              <li>透過第三方通路購買（請聯繫該通路退款）</li>
+              <li>已超過申請期限</li>
+              <li>已安裝 eSIM</li>
             </ul>
+            <p className="text-gray-700 leading-relaxed">
+              退款若獲核准，可選擇原付款方式退還，或折抵下次購買。
+            </p>
           </section>
 
           <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">3. 服務使用</h2>
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">7. 客戶責任</h2>
+            <p className="text-gray-700 leading-relaxed">
+              您不得利用本服務從事任何違法、詐欺、濫用或損害他人網路安全之行為。若您違反本條款，我們有權中止或終止您的帳戶與服務，並不予退費。
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">8. 國際使用與資料傳輸</h2>
+            <p className="text-gray-700 leading-relaxed">
+              雖然我們的公司位於台灣，eSIM 服務將使用於國外，因此，您同意您的個人資料可能因服務提供需求傳輸至其他國家或區域。無論資料處理地為何，我們將採取合理安全措施保護您的資訊。
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">9. 條款變更</h2>
+            <p className="text-gray-700 leading-relaxed">
+              我們保留隨時修訂本條款之權利。任何重大變更將以網站公告或電子郵件通知。請定期查閱本條款以掌握最新版本。
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">10. 聯絡我們</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              您同意：
-            </p>
-            <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-              <li>僅將服務用於合法目的</li>
-              <li>不從事任何可能損害服務或影響其他用戶的行為</li>
-              <li>保護您的帳戶安全，不與他人分享帳戶資訊</li>
-              <li>遵守所有適用的網路使用政策</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">4. 付款和退款</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              付款條款：
-            </p>
-            <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-              <li>所有價格均以新台幣顯示，包含稅金</li>
-              <li>付款完成後，eSIM 將立即啟用</li>
-              <li>eSIM 一旦啟用，恕不退款</li>
-              <li>未啟用的 eSIM 可在購買後 24 小時內申請退款</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">5. 服務可用性</h2>
-            <p className="text-gray-700 leading-relaxed">
-              我們致力於提供高品質的服務，但無法保證服務的連續性或無錯誤運行。網路覆蓋範圍和速度可能因地區、設備和當地網路狀況而有所不同。
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">6. 隱私保護</h2>
-            <p className="text-gray-700 leading-relaxed">
-              我們重視您的隱私。有關我們如何收集、使用和保護您的個人資訊，請參閱我們的隱私政策。
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">7. 免責聲明</h2>
-            <p className="text-gray-700 leading-relaxed">
-              在法律允許的最大範圍內，CANET 不對因使用我們的服務而產生的任何直接、間接、偶然或特殊損害承擔責任。
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">8. 條款修改</h2>
-            <p className="text-gray-700 leading-relaxed">
-              我們保留隨時修改這些條款的權利。重大變更將透過電子郵件或應用程式內通知告知用戶。
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">9. 聯繫我們</h2>
-            <p className="text-gray-700 leading-relaxed">
-              如果您對這些條款有任何疑問，請透過以下方式聯繫我們：
+              如有任何關於本條款之疑問、帳戶或交易問題，請聯絡我們：
             </p>
             <div className="mt-4 space-y-2">
-              <p className="text-gray-700">LINE 官方帳號：@canet</p>
-              <p className="text-gray-700">電子郵件：service@canet.tech</p>
+              <p className="text-gray-700">森聯科技有限公司</p>
+              <p className="text-gray-700">Email：service@canet.tech</p>
+              <p className="text-gray-700">地址：新北市中和區橋和路87號3樓</p>
               <p className="text-gray-700">服務時間：週一至週五 09:00–18:00</p>
             </div>
           </section>

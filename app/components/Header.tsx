@@ -38,7 +38,7 @@ export default function Header() {
       </nav>
 
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-br from-primary-50 via-green-50 to-accent-50 py-20 lg:py-32">
+      <div className="relative bg-white py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
@@ -71,8 +71,8 @@ export default function Header() {
               </div>
               
               <div className="card p-6 text-center">
-                <div className="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Brain className="w-8 h-8 text-secondary-600" />
+                <div className="w-16 h-16 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Brain className="w-8 h-8 text-accent-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">AI 推薦</h3>
                 <p className="text-gray-600">
@@ -106,9 +106,9 @@ export default function Header() {
         
         {/* Background Elements */}
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-primary-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-pulse-slow"></div>
-          <div className="absolute top-40 right-10 w-72 h-72 bg-accent-300 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-pulse-slow"></div>
-          <div className="absolute -bottom-8 left-20 w-72 h-72 bg-primary-200 rounded-full mix-blend-multiply filter blur-xl opacity-25 animate-pulse-slow"></div>
+          <div className="absolute top-20 left-10 w-72 h-72 bg-primary-100 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-slow"></div>
+          <div className="absolute top-40 right-10 w-72 h-72 bg-accent-100 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse-slow"></div>
+          <div className="absolute -bottom-8 left-20 w-72 h-72 bg-primary-50 rounded-full mix-blend-multiply filter blur-xl opacity-15 animate-pulse-slow"></div>
         </div>
       </div>
     </header>
