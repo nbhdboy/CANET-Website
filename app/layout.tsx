@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'CANET',
     images: [
       {
-        url: '/mini app logo.png',
+        url: 'https://canet-website.vercel.app/canet-logo.png',
         width: 1200,
         height: 630,
         alt: 'CANET - 全球 eSIM 服務',
@@ -30,13 +30,13 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'CANET - 全球 eSIM 服務',
     description: '安全便利的全球網路連接服務，支援 100+ 國家',
-    images: ['/mini app logo.png'],
+    images: ['https://canet-website.vercel.app/canet-logo.png'],
     creator: '@canet_esim',
   },
   icons: {
-    icon: '/mini app logo.png',
-    shortcut: '/mini app logo.png',
-    apple: '/mini app logo.png',
+    icon: '/canet-logo.png',
+    shortcut: '/canet-logo.png',
+    apple: '/canet-logo.png',
   },
 }
 
@@ -48,9 +48,9 @@ export default function RootLayout({
   return (
     <html lang="zh-TW">
       <head>
-        <link rel="icon" href="/mini app logo.png" type="image/png" />
-        <link rel="shortcut icon" href="/mini app logo.png" />
-        <link rel="apple-touch-icon" href="/mini app logo.png" />
+        <link rel="icon" href="/canet-logo.png" type="image/png" />
+        <link rel="shortcut icon" href="/canet-logo.png" />
+        <link rel="apple-touch-icon" href="/canet-logo.png" />
       </head>
       <body className={inter.className}>
         {children}
