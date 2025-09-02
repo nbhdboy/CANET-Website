@@ -22,6 +22,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'CANET - 全球 eSIM 服務',
+        type: 'image/png',
       },
     ],
     locale: 'zh_TW',
@@ -51,6 +52,25 @@ export default function RootLayout({
         <link rel="icon" href="/canet-logo.png" type="image/png" />
         <link rel="shortcut icon" href="/canet-logo.png" />
         <link rel="apple-touch-icon" href="/canet-logo.png" />
+        
+        {/* 手動添加 Open Graph 標籤 */}
+        <meta property="og:title" content="CANET - 全球 eSIM 服務" />
+        <meta property="og:description" content="安全便利的全球網路連接服務，支援 100+ 國家，透過 LINE Mini App 輕鬆購買 eSIM" />
+        <meta property="og:image" content="https://canet-website.vercel.app/canet-logo.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:url" content="https://canet-website.vercel.app" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="CANET" />
+        <meta property="og:locale" content="zh_TW" />
+        
+        {/* Twitter Card 標籤 */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="CANET - 全球 eSIM 服務" />
+        <meta name="twitter:description" content="安全便利的全球網路連接服務，支援 100+ 國家" />
+        <meta name="twitter:image" content="https://canet-website.vercel.app/canet-logo.png" />
+        <meta name="twitter:creator" content="@canet_esim" />
       </head>
       <body className={inter.className}>
         {children}
