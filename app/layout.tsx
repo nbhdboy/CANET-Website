@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'CANET',
     images: [
       {
-        url: 'https://canet-website.vercel.app/canet-logo.png',
+        url: 'https://canet-website.vercel.app/canet-logo-new.png',
         width: 1200,
         height: 630,
         alt: 'CANET - 全球 eSIM 服務',
@@ -31,13 +31,13 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'CANET - 全球 eSIM 服務',
     description: '安全便利的全球網路連接服務，支援 100+ 國家',
-    images: ['https://canet-website.vercel.app/canet-logo.png'],
+    images: ['https://canet-website.vercel.app/canet-logo-new.png'],
     creator: '@canet_esim',
   },
   icons: {
-    icon: '/canet-logo.png',
-    shortcut: '/canet-logo.png',
-    apple: '/canet-logo.png',
+    icon: '/canet-logo-new.png',
+    shortcut: '/canet-logo-new.png',
+    apple: '/canet-logo-new.png',
   },
 }
 
@@ -49,14 +49,14 @@ export default function RootLayout({
   return (
     <html lang="zh-TW">
       <head>
-        <link rel="icon" href="/canet-logo.png?v=2" type="image/png" />
-        <link rel="shortcut icon" href="/canet-logo.png?v=2" />
-        <link rel="apple-touch-icon" href="/canet-logo.png?v=2" />
+        <link rel="icon" href="/canet-logo-new.png" type="image/png" />
+        <link rel="shortcut icon" href="/canet-logo-new.png" />
+        <link rel="apple-touch-icon" href="/canet-logo-new.png" />
         
         {/* 手動添加 Open Graph 標籤 */}
         <meta property="og:title" content="CANET - 全球 eSIM 服務" />
         <meta property="og:description" content="安全便利的全球網路連接服務，支援 100+ 國家，透過 LINE Mini App 輕鬆購買 eSIM" />
-        <meta property="og:image" content="https://canet-website.vercel.app/canet-logo.png" />
+        <meta property="og:image" content="https://canet-website.vercel.app/canet-logo-new.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:type" content="image/png" />
@@ -69,7 +69,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="CANET - 全球 eSIM 服務" />
         <meta name="twitter:description" content="安全便利的全球網路連接服務，支援 100+ 國家" />
-        <meta name="twitter:image" content="https://canet-website.vercel.app/canet-logo.png" />
+        <meta name="twitter:image" content="https://canet-website.vercel.app/canet-logo-new.png" />
         <meta name="twitter:creator" content="@canet_esim" />
       </head>
       <body className={inter.className}>
