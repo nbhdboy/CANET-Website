@@ -49,9 +49,9 @@ export default function RootLayout({
   return (
     <html lang="zh-TW">
       <head>
-        <link rel="icon" href="/canet-logo.png" type="image/png" />
-        <link rel="shortcut icon" href="/canet-logo.png" />
-        <link rel="apple-touch-icon" href="/canet-logo.png" />
+        <link rel="icon" href="/canet-logo.png?v=2" type="image/png" />
+        <link rel="shortcut icon" href="/canet-logo.png?v=2" />
+        <link rel="apple-touch-icon" href="/canet-logo.png?v=2" />
         
         {/* 手動添加 Open Graph 標籤 */}
         <meta property="og:title" content="CANET - 全球 eSIM 服務" />
