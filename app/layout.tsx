@@ -12,8 +12,31 @@ export const metadata: Metadata = {
   authors: [{ name: 'CANET Team' }],
   openGraph: {
     title: 'CANET - 全球 eSIM 服務',
-    description: '安全便利的全球網路連接服務',
+    description: '安全便利的全球網路連接服務，支援 100+ 國家，透過 LINE Mini App 輕鬆購買 eSIM',
     type: 'website',
+    url: 'https://canet-website.vercel.app',
+    siteName: 'CANET',
+    images: [
+      {
+        url: '/mini app logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'CANET - 全球 eSIM 服務',
+      },
+    ],
+    locale: 'zh_TW',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'CANET - 全球 eSIM 服務',
+    description: '安全便利的全球網路連接服務，支援 100+ 國家',
+    images: ['/mini app logo.png'],
+    creator: '@canet_esim',
+  },
+  icons: {
+    icon: '/mini app logo.png',
+    shortcut: '/mini app logo.png',
+    apple: '/mini app logo.png',
   },
 }
 
@@ -24,6 +47,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh-TW">
+      <head>
+        <link rel="icon" href="/mini app logo.png" type="image/png" />
+        <link rel="shortcut icon" href="/mini app logo.png" />
+        <link rel="apple-touch-icon" href="/mini app logo.png" />
+      </head>
       <body className={inter.className}>
         {children}
       </body>
